@@ -1,3 +1,4 @@
+# bash <(curl -s https://raw.githubusercontent.com/diginfo/install/master/debian/mariadb.sh)
 function _maria {
   
   apt remove mariadb-server mariadb-client --purge
